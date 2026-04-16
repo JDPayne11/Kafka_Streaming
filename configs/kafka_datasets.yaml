@@ -1,0 +1,14 @@
+quotes:
+  active: false
+  handler: quote_data_handler
+  stream_type: StockDataStream
+  subscription: subscribe_quotes
+  tickers:
+    - AAPL
+trades:
+  active: true
+  handler: trade_data_handler
+  stream_type: StockDataStream
+  subscription: subscribe_trades
+  tickers:
+    - AAPL
